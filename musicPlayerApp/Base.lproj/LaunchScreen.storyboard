@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ghfgh" translatesAutoresizingMaskIntoConstraints="NO" id="X2h-fa-jaH">
+                                <rect key="frame" x="20" y="64" width="374" height="784"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="X2h-fa-jaH" secondAttribute="height" multiplier="187:406" id="0hX-2i-KYe"/>
+                                    <constraint firstAttribute="width" constant="374" id="j1P-y7-Bjo"/>
+                                    <constraint firstAttribute="height" constant="812" id="tro-Ga-y5f"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8xn-Aj-Ifr">
+                                <rect key="frame" x="56" y="166" width="302" height="97"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.91637464444952443" green="1" blue="0.99589025093761374" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Music Player App">
+                                        <attributes>
+                                            <color key="NSColor" red="0.37761091320000001" green="0.031367832050000002" blue="0.070542560690000006" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="35" name="SignPainter-HouseScript"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="X2h-fa-jaH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="4w0-SX-cIB"/>
+                            <constraint firstItem="X2h-fa-jaH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="5we-ty-lNp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="X2h-fa-jaH" secondAttribute="trailing" constant="20" id="C9Z-WP-d32"/>
+                            <constraint firstItem="X2h-fa-jaH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="CMR-I3-hni"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="X2h-fa-jaH" secondAttribute="trailing" constant="20" id="Myj-03-xb0"/>
+                            <constraint firstAttribute="bottom" secondItem="X2h-fa-jaH" secondAttribute="bottom" constant="20" id="PGf-QH-iBX"/>
+                            <constraint firstItem="X2h-fa-jaH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="QOd-0h-VKT"/>
+                            <constraint firstItem="X2h-fa-jaH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="b3X-c4-wxn"/>
+                            <constraint firstAttribute="bottom" secondItem="X2h-fa-jaH" secondAttribute="bottom" constant="20" id="bf9-0U-iFd"/>
+                            <constraint firstItem="X2h-fa-jaH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="ec5-yP-Qz6"/>
+                            <constraint firstItem="X2h-fa-jaH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="g11-cQ-rbo"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="X2h-fa-jaH" secondAttribute="trailing" constant="20" id="poC-hv-57L"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="X2h-fa-jaH" secondAttribute="bottom" constant="14" id="uLg-hP-jWR"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ghfgh" width="1000" height="1250"/>
+    </resources>
+</document>
